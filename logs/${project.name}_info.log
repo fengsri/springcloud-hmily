@@ -1,0 +1,174 @@
+2021-03-23 21:10:05,211 INFO [main][SpringApplication.java:675] - No active profile set, falling back to default profiles: default
+2021-03-23 21:10:05,648 WARN [main][EndpointId.java:135] - Endpoint ID 'service-registry' contains invalid characters, please migrate to a valid format.
+2021-03-23 21:10:05,784 INFO [main][GenericScope.java:294] - BeanFactory id=33c68227-122c-36dd-8028-a36de4f592a4
+2021-03-23 21:10:05,844 INFO [main][PostProcessorRegistrationDelegate.java:330] - Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$610b4172] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-03-23 21:10:06,067 INFO [main][TomcatWebServer.java:90] - Tomcat initialized with port(s): 56080 (http)
+2021-03-23 21:10:06,076 INFO [main][DirectJDKLog.java:173] - Initializing ProtocolHandler ["http-nio-56080"]
+2021-03-23 21:10:06,081 INFO [main][DirectJDKLog.java:173] - Starting service [Tomcat]
+2021-03-23 21:10:06,082 INFO [main][DirectJDKLog.java:173] - Starting Servlet engine: [Apache Tomcat/9.0.16]
+2021-03-23 21:10:06,086 INFO [main][DirectJDKLog.java:173] - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [D:\jdk\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\ProgramData\Oracle\Java\javapath;C:\ProgramData\DockerDesktop\version-bin;C:\Program Files\Docker\Docker\Resources\bin;D:\xftp\;D:\xshell\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\Microsoft VS Code\bin;D:\git\cmd;D:\node\node\;D:\phpstudy\phpStudy\Extensions\php\php7.3.4nts;D:\jdk\bin;D:\maven\maven\bin;D:\phpstudy\phpStudy\Extensions\MySQL5.7.26\bin;D:\go\bin;D:\python\Scripts\;D:\python\;C:\Users\wenfeng\AppData\Local\Microsoft\WindowsApps;;D:\phpstrom\phpstrom\bin;;C:\Users\wenfeng\AppData\Roaming\npm;C:\Users\wenfeng\AppData\Local\Programs\Fiddler;D:\idea2020\IntelliJ IDEA 2019.1\bin;;D:\vscode\bin;C:\Users\wenfeng\go\bin;D:\golang\golang\GoLand 2020.3.1\bin;;.]
+2021-03-23 21:10:06,168 INFO [main][DirectJDKLog.java:173] - Initializing Spring embedded WebApplicationContext
+2021-03-23 21:10:06,169 INFO [main][ServletWebServerApplicationContext.java:296] - Root WebApplicationContext: initialization completed in 951 ms
+2021-03-23 21:10:06,235 WARN [main][URLConfigurationSource.java:121] - No URLs will be polled as dynamic configuration sources.
+2021-03-23 21:10:06,235 INFO [main][URLConfigurationSource.java:122] - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2021-03-23 21:10:06,246 INFO [main][DynamicPropertyFactory.java:281] - DynamicPropertyFactory is initialized with configuration sources: com.netflix.config.ConcurrentCompositeConfiguration@6242ae3b
+2021-03-23 21:10:07,771 INFO [main][InetUtils.java:170] - Cannot determine local hostname
+2021-03-23 21:10:07,923 INFO [main][WebApplicationImpl.java:815] - Initiating Jersey application, version 'Jersey: 1.19.1 03/11/2016 02:08 PM'
+2021-03-23 21:10:07,966 INFO [main][DiscoveryJerseyProvider.java:70] - Using JSON encoding codec LegacyJacksonJson
+2021-03-23 21:10:07,966 INFO [main][DiscoveryJerseyProvider.java:71] - Using JSON decoding codec LegacyJacksonJson
+2021-03-23 21:10:08,059 INFO [main][DiscoveryJerseyProvider.java:80] - Using XML encoding codec XStreamXml
+2021-03-23 21:10:08,059 INFO [main][DiscoveryJerseyProvider.java:81] - Using XML decoding codec XStreamXml
+2021-03-23 21:10:08,240 WARN [main][URLConfigurationSource.java:121] - No URLs will be polled as dynamic configuration sources.
+2021-03-23 21:10:08,240 INFO [main][URLConfigurationSource.java:122] - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2021-03-23 21:10:08,343 INFO [main][ExecutorConfigurationSupport.java:171] - Initializing ExecutorService 'applicationTaskExecutor'
+2021-03-23 21:10:09,854 INFO [main][InetUtils.java:170] - Cannot determine local hostname
+2021-03-23 21:10:09,899 INFO [main][InstanceInfoFactory.java:71] - Setting initial instance status as: STARTING
+2021-03-23 21:10:09,917 INFO [main][DiscoveryClient.java:349] - Initializing Eureka in region us-east-1
+2021-03-23 21:10:09,917 INFO [main][DiscoveryClient.java:352] - Client configured to neither register nor query for data.
+2021-03-23 21:10:09,922 INFO [main][DiscoveryClient.java:365] - Discovery Client initialized at timestamp 1616505009921 with initial instances count: 0
+2021-03-23 21:10:09,946 INFO [main][DefaultEurekaServerContext.java:63] - Initializing ...
+2021-03-23 21:10:09,948 INFO [main][PeerEurekaNodes.java:188] - Adding new peer nodes [http://localhost:56080/eureka/]
+2021-03-23 21:10:10,022 INFO [main][DiscoveryJerseyProvider.java:70] - Using JSON encoding codec LegacyJacksonJson
+2021-03-23 21:10:10,022 INFO [main][DiscoveryJerseyProvider.java:71] - Using JSON decoding codec LegacyJacksonJson
+2021-03-23 21:10:10,022 INFO [main][DiscoveryJerseyProvider.java:80] - Using XML encoding codec XStreamXml
+2021-03-23 21:10:10,022 INFO [main][DiscoveryJerseyProvider.java:81] - Using XML decoding codec XStreamXml
+2021-03-23 21:10:10,084 INFO [main][PeerEurekaNodes.java:110] - Replica node URL:  http://localhost:56080/eureka/
+2021-03-23 21:10:10,089 INFO [main][AbstractInstanceRegistry.java:151] - Finished initializing remote region registries. All known remote regions: []
+2021-03-23 21:10:10,090 INFO [main][DefaultEurekaServerContext.java:70] - Initialized
+2021-03-23 21:10:10,098 INFO [main][EndpointLinksResolver.java:59] - Exposing 2 endpoint(s) beneath base path '/actuator'
+2021-03-23 21:10:10,150 INFO [main][EurekaServiceRegistry.java:42] - Registering application SEATA-DEMO-DISCOVERY with eureka with status UP
+2021-03-23 21:10:10,152 INFO [Thread-27][EurekaServerBootstrap.java:109] - Setting the eureka configuration..
+2021-03-23 21:10:10,153 INFO [Thread-27][EurekaServerBootstrap.java:114] - Eureka data center value eureka.datacenter is not set, defaulting to default
+2021-03-23 21:10:10,153 INFO [Thread-27][EurekaServerBootstrap.java:128] - Eureka environment value eureka.environment is not set, defaulting to test
+2021-03-23 21:10:10,163 INFO [main][DirectJDKLog.java:173] - Starting ProtocolHandler ["http-nio-56080"]
+2021-03-23 21:10:10,168 INFO [Thread-27][EurekaServerBootstrap.java:184] - isAws returned false
+2021-03-23 21:10:10,168 INFO [Thread-27][EurekaServerBootstrap.java:152] - Initialized server context
+2021-03-23 21:10:10,168 INFO [Thread-27][PeerAwareInstanceRegistryImpl.java:241] - Got 1 instances from neighboring DS node
+2021-03-23 21:10:10,168 INFO [Thread-27][PeerAwareInstanceRegistryImpl.java:242] - Renew threshold is: 1
+2021-03-23 21:10:10,169 INFO [Thread-27][PeerAwareInstanceRegistryImpl.java:253] - Changing status to UP
+2021-03-23 21:10:10,174 INFO [Thread-27][EurekaServerInitializerConfiguration.java:72] - Started Eureka Server
+2021-03-23 21:10:10,184 INFO [main][TomcatWebServer.java:204] - Tomcat started on port(s): 56080 (http) with context path ''
+2021-03-23 21:10:10,185 INFO [main][EurekaAutoServiceRegistration.java:141] - Updating port to 56080
+2021-03-23 21:10:10,186 INFO [main][StartupInfoLogger.java:59] - Started DiscoveryServer in 8.148 seconds (JVM running for 8.929)
+2021-03-23 21:10:10,713 INFO [RMI TCP Connection(7)-10.0.75.1][DirectJDKLog.java:173] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-03-23 21:10:10,713 INFO [RMI TCP Connection(7)-10.0.75.1][FrameworkServlet.java:524] - Initializing Servlet 'dispatcherServlet'
+2021-03-23 21:10:10,723 INFO [RMI TCP Connection(7)-10.0.75.1][FrameworkServlet.java:546] - Completed initialization in 10 ms
+2021-03-23 21:10:20,171 INFO [Eureka-EvictionTimer][AbstractInstanceRegistry.java:1250] - Running the evict task with compensationTime 0ms
+2021-03-23 21:10:30,176 INFO [Eureka-EvictionTimer][AbstractInstanceRegistry.java:1250] - Running the evict task with compensationTime 4ms
+2021-03-23 21:10:40,185 INFO [Eureka-EvictionTimer][AbstractInstanceRegistry.java:1250] - Running the evict task with compensationTime 9ms
+2021-03-23 21:10:50,192 INFO [Eureka-EvictionTimer][AbstractInstanceRegistry.java:1250] - Running the evict task with compensationTime 6ms
+2021-03-23 21:11:00,205 INFO [Eureka-EvictionTimer][AbstractInstanceRegistry.java:1250] - Running the evict task with compensationTime 12ms
+2021-03-23 21:11:10,218 INFO [Eureka-EvictionTimer][AbstractInstanceRegistry.java:1250] - Running the evict task with compensationTime 12ms
+2021-03-23 21:11:20,223 INFO [Eureka-EvictionTimer][AbstractInstanceRegistry.java:1250] - Running the evict task with compensationTime 5ms
+2021-03-23 21:11:30,225 INFO [Eureka-EvictionTimer][AbstractInstanceRegistry.java:1250] - Running the evict task with compensationTime 2ms
+2021-03-23 21:11:40,227 INFO [Eureka-EvictionTimer][AbstractInstanceRegistry.java:1250] - Running the evict task with compensationTime 2ms
+2021-03-23 21:11:50,233 INFO [Eureka-EvictionTimer][AbstractInstanceRegistry.java:1250] - Running the evict task with compensationTime 5ms
+2021-03-23 21:12:00,242 INFO [Eureka-EvictionTimer][AbstractInstanceRegistry.java:1250] - Running the evict task with compensationTime 8ms
+2021-03-23 21:12:10,246 INFO [Eureka-EvictionTimer][AbstractInstanceRegistry.java:1250] - Running the evict task with compensationTime 4ms
+2021-03-23 21:12:20,255 INFO [Eureka-EvictionTimer][AbstractInstanceRegistry.java:1250] - Running the evict task with compensationTime 8ms
+2021-03-23 21:12:30,259 INFO [Eureka-EvictionTimer][AbstractInstanceRegistry.java:1250] - Running the evict task with compensationTime 4ms
+2021-03-23 21:12:40,264 INFO [Eureka-EvictionTimer][AbstractInstanceRegistry.java:1250] - Running the evict task with compensationTime 5ms
+2021-03-23 21:12:50,267 INFO [Eureka-EvictionTimer][AbstractInstanceRegistry.java:1250] - Running the evict task with compensationTime 3ms
+2021-03-23 21:13:00,282 INFO [Eureka-EvictionTimer][AbstractInstanceRegistry.java:1250] - Running the evict task with compensationTime 15ms
+2021-03-23 21:13:10,296 INFO [Eureka-EvictionTimer][AbstractInstanceRegistry.java:1250] - Running the evict task with compensationTime 13ms
+2021-03-23 21:13:20,301 INFO [Eureka-EvictionTimer][AbstractInstanceRegistry.java:1250] - Running the evict task with compensationTime 4ms
+2021-03-23 21:13:30,312 INFO [Eureka-EvictionTimer][AbstractInstanceRegistry.java:1250] - Running the evict task with compensationTime 11ms
+2021-03-23 21:13:40,317 INFO [Eureka-EvictionTimer][AbstractInstanceRegistry.java:1250] - Running the evict task with compensationTime 4ms
+2021-03-23 21:13:50,330 INFO [Eureka-EvictionTimer][AbstractInstanceRegistry.java:1250] - Running the evict task with compensationTime 12ms
+2021-03-23 21:14:00,335 INFO [Eureka-EvictionTimer][AbstractInstanceRegistry.java:1250] - Running the evict task with compensationTime 5ms
+2021-03-23 21:14:10,336 INFO [Eureka-EvictionTimer][AbstractInstanceRegistry.java:1250] - Running the evict task with compensationTime 0ms
+2021-03-23 21:14:20,341 INFO [Eureka-EvictionTimer][AbstractInstanceRegistry.java:1250] - Running the evict task with compensationTime 5ms
+2021-03-23 21:14:30,342 INFO [Eureka-EvictionTimer][AbstractInstanceRegistry.java:1250] - Running the evict task with compensationTime 0ms
+2021-03-23 21:14:40,350 INFO [Eureka-EvictionTimer][AbstractInstanceRegistry.java:1250] - Running the evict task with compensationTime 8ms
+2021-03-23 21:14:50,351 INFO [Eureka-EvictionTimer][AbstractInstanceRegistry.java:1250] - Running the evict task with compensationTime 1ms
+2021-03-23 21:15:00,360 INFO [Eureka-EvictionTimer][AbstractInstanceRegistry.java:1250] - Running the evict task with compensationTime 8ms
+2021-03-23 21:15:10,363 INFO [Eureka-EvictionTimer][AbstractInstanceRegistry.java:1250] - Running the evict task with compensationTime 2ms
+2021-03-23 21:15:20,378 INFO [Eureka-EvictionTimer][AbstractInstanceRegistry.java:1250] - Running the evict task with compensationTime 14ms
+2021-03-23 21:15:30,390 INFO [Eureka-EvictionTimer][AbstractInstanceRegistry.java:1250] - Running the evict task with compensationTime 12ms
+2021-03-23 21:15:40,399 INFO [Eureka-EvictionTimer][AbstractInstanceRegistry.java:1250] - Running the evict task with compensationTime 9ms
+2021-03-23 21:15:50,400 INFO [Eureka-EvictionTimer][AbstractInstanceRegistry.java:1250] - Running the evict task with compensationTime 0ms
+2021-03-23 21:16:00,411 INFO [Eureka-EvictionTimer][AbstractInstanceRegistry.java:1250] - Running the evict task with compensationTime 10ms
+2021-03-23 21:16:10,416 INFO [Eureka-EvictionTimer][AbstractInstanceRegistry.java:1250] - Running the evict task with compensationTime 5ms
+2021-03-23 21:16:20,420 INFO [Eureka-EvictionTimer][AbstractInstanceRegistry.java:1250] - Running the evict task with compensationTime 3ms
+2021-03-23 21:16:30,431 INFO [Eureka-EvictionTimer][AbstractInstanceRegistry.java:1250] - Running the evict task with compensationTime 10ms
+2021-03-23 21:16:40,431 INFO [Eureka-EvictionTimer][AbstractInstanceRegistry.java:1250] - Running the evict task with compensationTime 0ms
+2021-03-23 21:16:50,436 INFO [Eureka-EvictionTimer][AbstractInstanceRegistry.java:1250] - Running the evict task with compensationTime 4ms
+2021-03-23 21:17:00,448 INFO [Eureka-EvictionTimer][AbstractInstanceRegistry.java:1250] - Running the evict task with compensationTime 11ms
+2021-03-23 21:17:10,462 INFO [Eureka-EvictionTimer][AbstractInstanceRegistry.java:1250] - Running the evict task with compensationTime 14ms
+2021-03-23 21:17:20,471 INFO [Eureka-EvictionTimer][AbstractInstanceRegistry.java:1250] - Running the evict task with compensationTime 8ms
+2021-03-23 21:17:30,484 INFO [Eureka-EvictionTimer][AbstractInstanceRegistry.java:1250] - Running the evict task with compensationTime 11ms
+2021-03-23 21:17:40,487 INFO [Eureka-EvictionTimer][AbstractInstanceRegistry.java:1250] - Running the evict task with compensationTime 2ms
+2021-03-23 21:17:50,492 INFO [Eureka-EvictionTimer][AbstractInstanceRegistry.java:1250] - Running the evict task with compensationTime 5ms
+2021-03-23 21:18:00,495 INFO [Eureka-EvictionTimer][AbstractInstanceRegistry.java:1250] - Running the evict task with compensationTime 1ms
+2021-03-23 21:18:10,503 INFO [Eureka-EvictionTimer][AbstractInstanceRegistry.java:1250] - Running the evict task with compensationTime 8ms
+2021-03-23 21:18:20,512 INFO [Eureka-EvictionTimer][AbstractInstanceRegistry.java:1250] - Running the evict task with compensationTime 9ms
+2021-03-23 21:18:30,528 INFO [Eureka-EvictionTimer][AbstractInstanceRegistry.java:1250] - Running the evict task with compensationTime 15ms
+2021-03-23 21:18:40,535 INFO [Eureka-EvictionTimer][AbstractInstanceRegistry.java:1250] - Running the evict task with compensationTime 7ms
+2021-03-23 21:18:50,537 INFO [Eureka-EvictionTimer][AbstractInstanceRegistry.java:1250] - Running the evict task with compensationTime 1ms
+2021-03-23 21:19:00,543 INFO [Eureka-EvictionTimer][AbstractInstanceRegistry.java:1250] - Running the evict task with compensationTime 5ms
+2021-03-23 21:19:10,550 INFO [Eureka-EvictionTimer][AbstractInstanceRegistry.java:1250] - Running the evict task with compensationTime 6ms
+2021-03-23 21:19:20,556 INFO [Eureka-EvictionTimer][AbstractInstanceRegistry.java:1250] - Running the evict task with compensationTime 5ms
+2021-03-23 21:19:30,560 INFO [Eureka-EvictionTimer][AbstractInstanceRegistry.java:1250] - Running the evict task with compensationTime 4ms
+2021-03-23 21:19:40,573 INFO [Eureka-EvictionTimer][AbstractInstanceRegistry.java:1250] - Running the evict task with compensationTime 12ms
+2021-03-23 21:19:50,577 INFO [Eureka-EvictionTimer][AbstractInstanceRegistry.java:1250] - Running the evict task with compensationTime 4ms
+2021-03-23 21:20:00,580 INFO [Eureka-EvictionTimer][AbstractInstanceRegistry.java:1250] - Running the evict task with compensationTime 2ms
+2021-03-23 21:20:10,580 INFO [Eureka-EvictionTimer][AbstractInstanceRegistry.java:1250] - Running the evict task with compensationTime 0ms
+2021-03-23 21:20:20,589 INFO [Eureka-EvictionTimer][AbstractInstanceRegistry.java:1250] - Running the evict task with compensationTime 8ms
+2021-03-23 21:20:30,601 INFO [Eureka-EvictionTimer][AbstractInstanceRegistry.java:1250] - Running the evict task with compensationTime 11ms
+2021-03-23 21:20:34,717 INFO [http-nio-56080-exec-3][AbstractInstanceRegistry.java:266] - Registered instance TCC-DEMO-BANK1/tcc-demo-bank1:192.168.10.1:56081 with status UP (replication=false)
+2021-03-23 21:20:35,312 INFO [http-nio-56080-exec-6][AbstractInstanceRegistry.java:266] - Registered instance TCC-DEMO-BANK1/tcc-demo-bank1:192.168.10.1:56081 with status UP (replication=true)
+2021-03-23 21:20:40,612 INFO [Eureka-EvictionTimer][AbstractInstanceRegistry.java:1250] - Running the evict task with compensationTime 10ms
+2021-03-23 21:20:50,627 INFO [Eureka-EvictionTimer][AbstractInstanceRegistry.java:1250] - Running the evict task with compensationTime 14ms
+2021-03-23 21:21:00,630 INFO [Eureka-EvictionTimer][AbstractInstanceRegistry.java:1250] - Running the evict task with compensationTime 2ms
+2021-03-23 21:21:02,577 INFO [http-nio-56080-exec-5][AbstractInstanceRegistry.java:266] - Registered instance TCC-DEMO-BANK2/tcc-demo-bank2:192.168.10.1:56082 with status UP (replication=false)
+2021-03-23 21:21:03,096 INFO [http-nio-56080-exec-8][AbstractInstanceRegistry.java:266] - Registered instance TCC-DEMO-BANK2/tcc-demo-bank2:192.168.10.1:56082 with status UP (replication=true)
+2021-03-23 21:21:10,640 INFO [Eureka-EvictionTimer][AbstractInstanceRegistry.java:1250] - Running the evict task with compensationTime 10ms
+2021-03-23 21:21:20,646 INFO [Eureka-EvictionTimer][AbstractInstanceRegistry.java:1250] - Running the evict task with compensationTime 5ms
+2021-03-23 21:21:30,652 INFO [Eureka-EvictionTimer][AbstractInstanceRegistry.java:1250] - Running the evict task with compensationTime 6ms
+2021-03-23 21:21:40,655 INFO [Eureka-EvictionTimer][AbstractInstanceRegistry.java:1250] - Running the evict task with compensationTime 3ms
+2021-03-23 21:21:50,655 INFO [Eureka-EvictionTimer][AbstractInstanceRegistry.java:1250] - Running the evict task with compensationTime 0ms
+2021-03-23 21:22:00,669 INFO [Eureka-EvictionTimer][AbstractInstanceRegistry.java:1250] - Running the evict task with compensationTime 14ms
+2021-03-23 21:22:10,682 INFO [Eureka-EvictionTimer][AbstractInstanceRegistry.java:1250] - Running the evict task with compensationTime 13ms
+2021-03-23 21:22:20,685 INFO [Eureka-EvictionTimer][AbstractInstanceRegistry.java:1250] - Running the evict task with compensationTime 2ms
+2021-03-23 21:22:30,693 INFO [Eureka-EvictionTimer][AbstractInstanceRegistry.java:1250] - Running the evict task with compensationTime 8ms
+2021-03-23 21:22:40,708 INFO [Eureka-EvictionTimer][AbstractInstanceRegistry.java:1250] - Running the evict task with compensationTime 14ms
+2021-03-23 21:22:50,711 INFO [Eureka-EvictionTimer][AbstractInstanceRegistry.java:1250] - Running the evict task with compensationTime 3ms
+2021-03-23 21:23:00,711 INFO [Eureka-EvictionTimer][AbstractInstanceRegistry.java:1250] - Running the evict task with compensationTime 0ms
+2021-03-23 21:23:03,598 INFO [http-nio-56080-exec-7][AbstractInstanceRegistry.java:266] - Registered instance TCC-DEMO-BANK2/tcc-demo-bank2:192.168.10.1:56082 with status DOWN (replication=false)
+2021-03-23 21:23:03,644 INFO [http-nio-56080-exec-9][AbstractInstanceRegistry.java:266] - Registered instance TCC-DEMO-BANK2/tcc-demo-bank2:192.168.10.1:56082 with status DOWN (replication=true)
+2021-03-23 21:23:03,648 WARN [TaskBatchingWorker-target_localhost-4][ReplicationTask.java:35] - The replication of task TCC-DEMO-BANK2/tcc-demo-bank2:192.168.10.1:56082:Heartbeat@localhost failed with response code 409
+2021-03-23 21:23:03,649 WARN [TaskBatchingWorker-target_localhost-4][PeerEurekaNode.java:361] - Peer wants us to take the instance information from it, since the timestamp differs,Id : tcc-demo-bank2:192.168.10.1:56082 My Timestamp : 1616505662538, Peer's timestamp: 1616505783583
+2021-03-23 21:23:03,649 INFO [TaskBatchingWorker-target_localhost-4][AbstractInstanceRegistry.java:266] - Registered instance TCC-DEMO-BANK2/tcc-demo-bank2:192.168.10.1:56082 with status DOWN (replication=true)
+2021-03-23 21:23:06,628 INFO [http-nio-56080-exec-8][AbstractInstanceRegistry.java:330] - Cancelled instance TCC-DEMO-BANK2/tcc-demo-bank2:192.168.10.1:56082 (replication=false)
+2021-03-23 21:23:07,147 WARN [http-nio-56080-exec-6][AbstractInstanceRegistry.java:315] - DS: Registry: cancel failed because Lease is not registered for: TCC-DEMO-BANK2/tcc-demo-bank2:192.168.10.1:56082
+2021-03-23 21:23:07,147 INFO [http-nio-56080-exec-6][InstanceResource.java:288] - Not Found (Cancel): TCC-DEMO-BANK2 - tcc-demo-bank2:192.168.10.1:56082
+2021-03-23 21:23:07,148 WARN [TaskBatchingWorker-target_localhost-2][ReplicationTask.java:35] - The replication of task TCC-DEMO-BANK2/tcc-demo-bank2:192.168.10.1:56082:Cancel@localhost failed with response code 404
+2021-03-23 21:23:07,148 WARN [TaskBatchingWorker-target_localhost-2][PeerEurekaNode.java:171] - TCC-DEMO-BANK2/tcc-demo-bank2:192.168.10.1:56082:Cancel@localhost: missing entry.
+2021-03-23 21:23:10,720 INFO [Eureka-EvictionTimer][AbstractInstanceRegistry.java:1250] - Running the evict task with compensationTime 8ms
+2021-03-23 21:23:20,725 INFO [Eureka-EvictionTimer][AbstractInstanceRegistry.java:1250] - Running the evict task with compensationTime 4ms
+2021-03-23 21:23:30,728 INFO [Eureka-EvictionTimer][AbstractInstanceRegistry.java:1250] - Running the evict task with compensationTime 3ms
+2021-03-23 21:23:40,739 INFO [Eureka-EvictionTimer][AbstractInstanceRegistry.java:1250] - Running the evict task with compensationTime 10ms
+2021-03-23 21:23:50,745 INFO [Eureka-EvictionTimer][AbstractInstanceRegistry.java:1250] - Running the evict task with compensationTime 6ms
+2021-03-23 21:23:51,959 INFO [http-nio-56080-exec-3][AbstractInstanceRegistry.java:266] - Registered instance TCC-DEMO-BANK2/tcc-demo-bank2:192.168.10.1:56082 with status UP (replication=false)
+2021-03-23 21:23:52,484 INFO [http-nio-56080-exec-6][AbstractInstanceRegistry.java:266] - Registered instance TCC-DEMO-BANK2/tcc-demo-bank2:192.168.10.1:56082 with status UP (replication=true)
+2021-03-23 21:24:00,747 INFO [Eureka-EvictionTimer][AbstractInstanceRegistry.java:1250] - Running the evict task with compensationTime 2ms
+2021-03-23 21:24:10,757 INFO [Eureka-EvictionTimer][AbstractInstanceRegistry.java:1250] - Running the evict task with compensationTime 9ms
+2021-03-23 21:24:20,769 INFO [Eureka-EvictionTimer][AbstractInstanceRegistry.java:1250] - Running the evict task with compensationTime 12ms
+2021-03-23 21:24:30,782 INFO [Eureka-EvictionTimer][AbstractInstanceRegistry.java:1250] - Running the evict task with compensationTime 13ms
+2021-03-23 21:24:40,788 INFO [Eureka-EvictionTimer][AbstractInstanceRegistry.java:1250] - Running the evict task with compensationTime 5ms
+2021-03-23 21:24:48,823 INFO [http-nio-56080-exec-8][AbstractInstanceRegistry.java:266] - Registered instance TCC-DEMO-BANK1/tcc-demo-bank1:192.168.10.1:56081 with status DOWN (replication=false)
+2021-03-23 21:24:49,354 INFO [http-nio-56080-exec-3][AbstractInstanceRegistry.java:266] - Registered instance TCC-DEMO-BANK1/tcc-demo-bank1:192.168.10.1:56081 with status DOWN (replication=true)
+2021-03-23 21:24:50,791 INFO [Eureka-EvictionTimer][AbstractInstanceRegistry.java:1250] - Running the evict task with compensationTime 2ms
+2021-03-23 21:24:51,865 INFO [http-nio-56080-exec-9][AbstractInstanceRegistry.java:330] - Cancelled instance TCC-DEMO-BANK1/tcc-demo-bank1:192.168.10.1:56081 (replication=false)
+2021-03-23 21:24:52,386 WARN [http-nio-56080-exec-8][AbstractInstanceRegistry.java:315] - DS: Registry: cancel failed because Lease is not registered for: TCC-DEMO-BANK1/tcc-demo-bank1:192.168.10.1:56081
+2021-03-23 21:24:52,387 INFO [http-nio-56080-exec-8][InstanceResource.java:288] - Not Found (Cancel): TCC-DEMO-BANK1 - tcc-demo-bank1:192.168.10.1:56081
+2021-03-23 21:24:52,388 WARN [TaskBatchingWorker-target_localhost-13][ReplicationTask.java:35] - The replication of task TCC-DEMO-BANK1/tcc-demo-bank1:192.168.10.1:56081:Cancel@localhost failed with response code 404
+2021-03-23 21:24:52,388 WARN [TaskBatchingWorker-target_localhost-13][PeerEurekaNode.java:171] - TCC-DEMO-BANK1/tcc-demo-bank1:192.168.10.1:56081:Cancel@localhost: missing entry.
+2021-03-23 21:25:00,805 INFO [Eureka-EvictionTimer][AbstractInstanceRegistry.java:1250] - Running the evict task with compensationTime 13ms
+2021-03-23 21:25:07,094 INFO [http-nio-56080-exec-2][AbstractInstanceRegistry.java:266] - Registered instance TCC-DEMO-BANK1/tcc-demo-bank1:192.168.10.1:56081 with status UP (replication=false)
+2021-03-23 21:25:07,623 INFO [http-nio-56080-exec-5][AbstractInstanceRegistry.java:266] - Registered instance TCC-DEMO-BANK1/tcc-demo-bank1:192.168.10.1:56081 with status UP (replication=true)
+2021-03-23 21:25:09,340 INFO [http-nio-56080-exec-3][AbstractInstanceRegistry.java:266] - Registered instance TCC-DEMO-BANK1/tcc-demo-bank1:192.168.10.1:56081 with status DOWN (replication=false)
+2021-03-23 21:25:09,857 INFO [http-nio-56080-exec-6][AbstractInstanceRegistry.java:266] - Registered instance TCC-DEMO-BANK1/tcc-demo-bank1:192.168.10.1:56081 with status DOWN (replication=true)
+2021-03-23 21:25:10,110 INFO [ReplicaAwareInstanceRegistry - RenewalThresholdUpdater][PeerAwareInstanceRegistryImpl.java:539] - Current renewal threshold is : 0
+2021-03-23 21:25:10,815 INFO [Eureka-EvictionTimer][AbstractInstanceRegistry.java:1250] - Running the evict task with compensationTime 10ms
+2021-03-23 21:25:11,908 INFO [http-nio-56080-exec-9][AbstractInstanceRegistry.java:266] - Registered instance TCC-DEMO-BANK2/tcc-demo-bank2:192.168.10.1:56082 with status DOWN (replication=false)
